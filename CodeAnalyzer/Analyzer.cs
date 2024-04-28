@@ -88,7 +88,6 @@ public class Analyzer
         {
             if (line.Contains('=')) // создание переменной
             {
-                var varDef = line[..line.IndexOf('=')].Trim();
                 VariablesDefs.Add(line);
                 ParseMethodsAndVariablesAndLiterals(line[(line.IndexOf('=') + 1)..], true);
             }

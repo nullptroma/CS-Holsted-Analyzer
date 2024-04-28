@@ -1,10 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using CodeAnalyzer;
 
-
-using CodeAnalyzer;
-
-//string path = @"/home/nullptr/Desktop/software quality/Lab2/CodeAnalyzer/Analyzer.cs";
-string path = @"/home/nullptr/Desktop/software quality/Lab2/Lab2/Program.cs";
+string path = @"/home/nullptr/Desktop/software quality/Lab2/CodeAnalyzer/Analyzer.cs";
+//string path = @"/home/nullptr/Desktop/software quality/Lab2/Lab2/Program.cs";
 var exist = File.Exists(path);
 while(!exist)
 {

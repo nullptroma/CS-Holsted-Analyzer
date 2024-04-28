@@ -20,9 +20,6 @@ if (! bIn.HasValue)
     return;
 }
 
-double testvar = 6.78;
-double testvar2 = 6.78;
-Console.WriteLine(6.78);
 var a = aIn.Value;
 var b = bIn.Value;
 var factAb = Fact(a + b);
@@ -35,14 +32,14 @@ switch (d)
         break;
     case 0:
     {
-        var x = -3 * factAb / 4 * factA;
+        var x = - 3 * factAb / 4 * factA;
         Console.WriteLine($"x1 = 0\nx2 = {x}");
         break;
     }
     case > 0:
         var dSqrt = Math.Sqrt(d);
-        var x1 = (-3 * factAb - dSqrt) / 4 * factA;
-        var x2 = (-3 * factAb + dSqrt) / 4 * factA;
+        var x1 = (- 3 * factAb - dSqrt) / 4 * factA;
+        var x2 = (- 3 * factAb + dSqrt) / 4 * factA;
         Console.WriteLine($"x1 = 0\nx2 = {x1}\nx3 = {x2}");
         break;
 }
